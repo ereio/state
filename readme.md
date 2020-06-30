@@ -168,7 +168,7 @@ static _Props mapStateToProps(Store<AppState> store, String roomId) => _Props(
       messages: latestMessages(
         wrapOutboxMessages(
           messages: store.state.roomStore.rooms[roomId].messages,
-          outbox: rstore.state.roomStore.rooms[roomId].outbox,
+          outbox: store.state.roomStore.rooms[roomId].outbox,
         ),
       ),
 )
