@@ -3,7 +3,7 @@
 
 Now that I know how to the write it in Flutter, I think it's pretty great.
 
-That said, it took a long time to understand how to take the examples listed on the flutter redux docs and actually make it look like redux. So documentation can go a long way for redux in the flutter community. I believe it's largely ignored because the community rallies around Provider or Bloc, which are great! I'm unsure about the boilerplate argument at scale with Bloc, but even if there is slightly more boilerplate I don't think it's enough to warrants the context switch between the patterns. If you're comfortable with redux already, I would say go for it. My friend at work already knew how to read my code coming fom a react native and even a Vue redux implimentation.
+That said, it took a long time to understand how to take the examples listed on the flutter redux docs and actually make it look like redux. Documentation can go a long way for redux in the flutter community. I believe it's largely ignored because the community rallies around Provider or Bloc, which are great! I'm unsure about the boilerplate argument at scale with Bloc, but even if there is slightly more boilerplate I don't think it's enough to warrants the context switch between the patterns. If you're comfortable with redux already, I would say go for it. My friend at work already knew how to read my code coming fom a react native and even a Vue redux implimentation.
 
 For example, this is a "CounterBloc" example Bloc gives:
 ```dart
