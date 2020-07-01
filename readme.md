@@ -103,7 +103,7 @@ class CounterPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) => StoreConnector<AppState, Props>(
       distinct: true,
-      converter: (Store<AppState> store) => _Props.mapStateToProps(store),
+      converter: (Store<AppState> store) => Props.mapStateToProps(store),
       builder: (context, props) {
         return Scaffold(
           appBar: AppBar(title: Text('Counter')),
